@@ -172,6 +172,9 @@ table tr td {
   main {
     height: 420vh;
   }
+  img {
+    height: 20rem;
+  }
 }
 @media screen and ( 800px >  width > 700px ){
  main { height: 120vh;}
