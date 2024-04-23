@@ -122,13 +122,11 @@ table tr td {
 /*  Media Queries */
 @media only screen and (width <= 700px) {
   main {
-    height: 230vh;
-    width: 100vw;
+    height: 85%;
   }
   img {
-    width: 100vw;
-    border-radius: 0;
-    height: 40%;
+    width: 90vw;
+    height: 20%;
   }
   h1,
   .line,
@@ -151,40 +149,61 @@ table tr td {
     font-size: 0.9rem;
   }
 }
-@media only screen and (width <= 500px) {
+@media only screen and (width <= 600px) {
   main {
-    height: 250vh;
+    height: 100%; 
+    width: 100vw;
   }
   img {
     height: 40%;
+    width: 100vw;
   }
   .preparation {
-    height: 8%;
+    height: 10%;
   }
   p,
   b,
   li {
-    font-size: 01rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and ( width <= 480px) {
+  main { height: 150%;}
+  img {height: 100%; width: 100vw;}
+  .preparation{
+    height: 12%
   }
 }
 
-@media screen and (width <= 375px) {
+@media screen and (800px >= width >= 700px) {
   main {
-    height: 420vh;
+    height: 72%;
   }
 }
-@media screen and ( 800px >  width > 700px ){
- main { height: 120vh;}
-}
-@media screen and (  900px >= width > 800px ){
- main { height: 120vh; width: 40rem}
- img { width: 35rem;}
- section p, b , li,td  { font-size: 1.2rem;}
+@media screen and (900px >= width >= 800px) {
+  main {
+    height: 83%;
+    width: 40rem;
+  }
+  img {
+    width: 35rem;
+  }
+  section p,
+  b,
+  li,
+  td {
+    font-size: 1.2rem;
+  }
 }
 
-@media screen and ( width > 1200px) {
-  main { height: 90%;}
-  section p ,b , td , li {
-    font-size: 1rem;
+@media screen and (width >= 900px) {
+  main {
+    height: 92%;
+  }
+  section p,
+  b,
+  li,
+  td {
+    font-size: 1.4rem;
   }
 }
