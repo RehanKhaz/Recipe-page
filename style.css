@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 210vh;
+  background-color: hsl(30, 54%, 90%);
+}
+
+table tr .data {
+  padding-left: 14rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: Young Serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 32rem;
+  text-align: start;
+}
+
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  height: 10%;
+  padding-top: 1rem;
+  border-radius: 1rem;
+}
+
+.preparation h1 {
+  font-size: 1.4rem;
+  color: hsl(332, 51%, 32%);
+}
+
+.preparation li {
+  margin-bottom: 0.5rem;
+}
+
+.instructions {
+  padding-top: 2px;
+}
+
+hr {
+  width: 32rem;
+}
+main {
+  background-color: white;
+  height: 95%;
+  width: 35rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+}
+
+.line {
+  width: 32rem;
+  height: 1px;
+  background-color: rgb(199, 195, 195);
+}
+
+main p {
+  width: 32rem;
+  margin-top: -1rem;
+}
+
+section {
+  width: 32rem;
+  padding-left: 3rem;
+}
+
+section h1 {
+  margin-left: -2rem;
+}
+
+img {
+  min-height: 13%;
+  width: 32rem;
+  border-radius: 1rem;
+}
+
+section h1,
+tr {
+  color: hsl(14, 45%, 36%);
+}
+
+ol li,
+ul li {
+  padding-left: 1rem;
+}
+
+ol li::marker,
+ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition p,
+.nutrition table {
+  margin-left: -1.8rem;
+  margin-top: 1rem;
+}
+
+table tr td {
+  padding-bottom: 0.8rem;
+}
+
+.nutrition h1 {
+  margin-bottom: -1rem;
+}
+
+/*  Media Queries */
+@media only screen and (width <= 700px) {
+  main {
+    height: 230vh;
+    width: 100vw;
+  }
+  img {
+    width: 100vw;
+    border-radius: 0;
+    height: 40%;
+  }
+  h1,
+  .line,
+  main p,
+  section {
+    width: 90vw;
+  }
+  * {
+    font-size: 1.2rem;
+  }
+  .preparation {
+    height: 10%;
+  }
+  table tr .data {
+    padding-left: 35vw;
+  }
+  p,
+  b,
+  li {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (width <= 500px) {
+  main {
+    height: 250vh;
+  }
+  img {
+    height: 40%;
+  }
+  .preparation {
+    height: 8%;
+  }
+  p,
+  b,
+  li {
+    font-size: 01rem;
+  }
+}
+
+@media screen and (width <= 375px) {
+  main {
+    height: 420vh;
+  }
+}
+@media screen and ( 800px >  width > 700px ){
+ main { height: 120vh;}
+}
+@media screen and (  900px >= width > 800px ){
+ main { height: 120vh; width: 40rem}
+ img { width: 35rem;}
+ section p, b , li,td  { font-size: 1.2rem;}
+}
+
+@media screen and ( width > 1200px) {
+  main { height: 90%;}
+  section p ,b , td , li {
+    font-size: 1.4rem;
+  }
+}
