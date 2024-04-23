@@ -173,7 +173,7 @@ table tr td {
     height: 420vh;
   }
   img {
-    height: 20rem;
+    height: 10rem;
   }
 }
 @media screen and ( 800px >  width > 700px ){
