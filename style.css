@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 210vh;
+ height: 1650px;
   background-color: hsl(30, 54%, 90%);
 }
 
@@ -54,7 +54,7 @@ hr {
 }
 main {
   background-color: white;
-  height: 95%;
+   min-height: 97%;
   width: 35rem;
   border-radius: 1rem;
   display: flex;
